@@ -1,0 +1,74 @@
+#borderleft {
+		height: 1000px;
+		margin: 69px 0px 0px 0px;
+		float: left;
+		border-right: 1px solid #000;
+	}
+	
+	#borderright {
+		height: 1000px;
+		margin: 69px 0px 0px 0px;
+		float: right;
+		border-left: 1px solid #000;
+	}
+	
+
+
+	
+
+
+
+
+	#img1 {
+		float: left;
+		position: absolute;
+		top: 69px;
+		left: 267px;
+		z-index: -1;
+	}
+	
+	#img2 {
+		float: right;
+		position: absolute;
+		top: 369px;
+		right: 267px;
+		z-index: -1;
+	}
+	
+	#img3 {
+		float: left;
+		position: absolute;
+		top: 569px;
+		left: 267px;
+		z-index: -1;
+	}
+
+
+
+
+
+
+
+
+
+
+<div id="borderleft">
+		<img src="file:///C:/Users/Janne/Documents/TM/JayPea%20border%20low%20dpi%201000px.jpg" alt="JayPea border" width="267" height="1000">
+	</div>	
+		
+	<div id="borderright">	
+		<img src="file:///C:/Users/Janne/Documents/TM/JayPea%20border%20low%20dpi%201000px.jpg" alt="JayPea border" width="267" height="1000">
+	</div>
+	
+	
+	<div id="img1">
+		<a href=""><img src="file:///C:/Users/Janne/Documents/TM/JayPea%20logo%20wob.png" alt="logo" width="400" height="303"></a>
+	</div>
+	
+	<div id="img2">
+		<a href=""><img src="file:///C:/Users/Janne/Documents/TM/JayPea%20logo%20wob.png" alt="logo" width="400" height="303"></a>
+	</div>
+	
+	<div id="img3">
+		<a href=""><img src="file:///C:/Users/Janne/Documents/TM/JayPea%20logo%20wob.png" alt="logo" width="400" height="303"></a>
+	</div>

@@ -1,0 +1,130 @@
+/* stylesheet homepage */
+
+	html { 
+	background: url(file:///C:/Users/Janne/Documents/TM/background1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	
+	
+	#top ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: fixed;
+		margin: 0px 0px 0px 0px;
+		overflow: hidden;
+		background-color: #fff;
+		top: 0;
+		width: 100%;
+	}
+	
+	#top li {
+		display: inline;
+		float: right;
+	}
+
+	#top li a {
+		display: block;
+		padding: 2px 5px 1px 0px;
+		background-color: #fff;
+		font-size: 11px;
+		text-align: center;
+		display: block;
+		font-family: verdana;
+	}	
+		
+		
+		
+	body {margin:0;}
+	#bot ul {
+		list-style-type: none;
+		padding: 0px 0px 0px 60px;
+		margin: 15px 0px 0px 0px;
+		overflow: hidden;
+		background-color: #515A5A;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		border-bottom: 1px solid #000;
+	}
+	
+	#bot li {
+		float: left;
+	}
+
+	#bot li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 18px 16px;
+		text-decoration: none;
+		font-family: verdana;
+		font-weight: bold;
+	}
+	
+	#bot li a:hover:not(.active) {
+		background-color: #111
+	}
+	
+	.active {
+		background-color: #4CAF50;
+	}
+	
+	
+	#mainblock {
+		background-color: #fff; 
+		position: absolute; 
+		top: 7.435344828%;
+		left: 22%;
+		width: 56%; 
+		height: 107.7586207%; 
+		visibility: show; 
+		z-index: -1;
+		border: 1px solid #DFDFDF
+		
+	}
+	
+	
+	#botback {	
+		background-color: #202020; 
+		color: white;
+		position: absolute; 
+		top: 115.1939655%; 
+		width: 100%; 
+		height: 29.63362069%; 
+		visibility: show; 
+		border-top: 1px solid #787878
+	}
+	
+	
+	#subbotback {
+		background-color: #202020; 
+		color: white;
+		position: absolute; 
+		top: 139.4396552%; 
+		width: 56%; 
+		left: 22%;
+		height: 5.387931034%; 
+		visibility: show; 
+		border-top: 1px solid #787878
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
